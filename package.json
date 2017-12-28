@@ -1,7 +1,7 @@
 {
   "name": "zeronet-ipld",
   "version": "0.0.0",
-  "description": "ZeroNet IPLD wrappers",
+  "description": "ZeroNet on IPLD",
   "main": "src/index.js",
   "scripts": {
     "test": "aegir test",
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/ZeroNetJS/zeronet-ipld#readme",
   "dependencies": {},
   "devDependencies": {
-    "aegir": "^12.2.0"
+    "aegir": "^12.3.0"
   },
   "directories": {
     "test": "test",
