@@ -29,7 +29,10 @@
     "url": "https://github.com/ZeroNetJS/zeronet-ipld/issues"
   },
   "homepage": "https://github.com/ZeroNetJS/zeronet-ipld#readme",
-  "dependencies": {},
+  "dependencies": {
+    "ipld-resolver": "^0.14.1",
+    "multicodec": "github:mkg20001/js-multicodec#zeronet-ipld-test"
+  },
   "devDependencies": {
     "aegir": "^12.3.0"
   },
