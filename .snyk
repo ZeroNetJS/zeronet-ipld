@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - ipld-resolver > ipld-git > multihashing-async > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipld-ethereum > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > interface-datastore > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipld-dag-pb > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipld-dag-cbor > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipld-ethereum > ethereumjs-block > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > interface-datastore > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > datastore-core > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > datastore-fs > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipld-git > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > lock-me > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipld-dag-cbor > multihashing-async > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipld-dag-pb > multihashing-async > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipld-ethereum > multihashing-async > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > datastore-level > datastore-core > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > datastore-fs > datastore-core > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > datastore-level > interface-datastore > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > datastore-fs > interface-datastore > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > datastore-core > interface-datastore > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > datastore-level > datastore-core > interface-datastore > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'
+    - ipld-resolver > ipfs-repo > datastore-fs > datastore-core > interface-datastore > async > lodash:
+        patched: '2019-07-03T21:14:12.758Z'

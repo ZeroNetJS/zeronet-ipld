@@ -13,7 +13,9 @@
     "release-minor": "aegir release --type minor",
     "release-major": "aegir release --type major",
     "coverage": "aegir coverage",
-    "coverage-publish": "aegir coverage -u"
+    "coverage-publish": "aegir coverage -u",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "zeronet",
@@ -31,7 +33,8 @@
   "homepage": "https://github.com/ZeroNetJS/zeronet-ipld#readme",
   "dependencies": {
     "ipld-resolver": "~0.14.1",
-    "multicodec": "github:mkg20001/js-multicodec#zeronet-ipld-test"
+    "multicodec": "github:mkg20001/js-multicodec#zeronet-ipld-test",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "aegir": "^12.3.0"
@@ -40,5 +43,6 @@
     "test": "test",
     "src": "src",
     "lib": "src"
-  }
+  },
+  "snyk": true
 }
